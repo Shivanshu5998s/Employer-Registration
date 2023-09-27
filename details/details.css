@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent;
+  background-color: lightblue;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  background-color: orangered;
+  /* color: white; */
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+table,
+td,
+th {
+  border: 3px solid black;
+  text-align: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tr > th {
+  background-color: orangered;
+  color: white;
+}
